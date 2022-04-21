@@ -2,12 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); /* font-family: 'Poppins', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* font-family: 'Open Sans', sans-serif; */
 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* - VARIABLES - */
 :root {
     /* - COLOUR VARIABLES - */
 
     --violet: hsl(257, 40%, 49%);
     --softMagenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
 
     /* - SCREEN SIZES - */
     --mobile: 375px;
@@ -15,20 +22,112 @@
 
     /* - FONT SIZES - */
 
+    /* - PAGE MAX WIDTHS - */
+
+
 }
 
 /* - TAGS - */
+html {
+    font-size: 1rem;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--violet);
+    background-image: ('./images/bg-mobile.svg');
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    font-size: 27px;
+}
+/*--------------------------------------------*/
 
+/* - CLASSES - */
 
+.container {
+    width: 80%;
+    max-width: var(--mobile);
+    margin: 0 auto;
+}
 
+/* -- HEADER START -- */
+.header__logo {
+    margin-top: 2.375em;
+    margin-bottom: 4.375em;
+}
+
+.logo-img {
+    max-width: 121px;
+}
+
+.header__hero {
+    margin-bottom: 70px;
+}
+
+.hero-img {
+    max-width: 296px;
+}
+/* -- HEADER END -- */
+
+/* -- BODY START -- */
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.body__title {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.body__description {
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 26px;
+}
+
+.body__register__btn {
+    width: 200px;
+    height: 40px;
+    background-color: var(--white);
+    border: none;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--violet);
+}
+/* -- BODY END -- */
+
+/* -- FOOTER START -- */
+.footer .footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__social__item {
+    color: var(--white);
+}
 
 .attribution { 
     font-size: 11px; 
