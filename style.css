@@ -19,12 +19,6 @@
     /* - SCREEN SIZES - */
     --mobile: 375px;
     --desktop: 1440px;
-
-    /* - FONT SIZES - */
-
-    /* - PAGE MAX WIDTHS - */
-
-
 }
 
 /* - TAGS - */
@@ -213,8 +207,13 @@ li:not(:first-child) {
     }
 
     .body__register__btn {
-
         height: 3.111em;
+    }
+
+    .body__register__btn:active, .body__register__btn:hover {
+        background-color: var(--softMagenta);
+        color: var(--white);
+        transition: 0.3s;
     }
 
     .footer {
