@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-1st-flexbox-huddle-landing-page-S1gDqugH9)
 - Live Site URL: [Github Pages](https://chrismulvanygh.github.io/huddle-landing-page/)
 
 ## My process
