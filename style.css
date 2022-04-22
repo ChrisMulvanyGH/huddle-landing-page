@@ -35,7 +35,6 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--violet);
-    background-image: ('./images/bg-mobile.svg');
 }
 
 img {
@@ -51,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 27px;
+    font-size: 1.6875rem;
 }
 /*--------------------------------------------*/
 
@@ -64,21 +63,28 @@ h1 {
 }
 
 /* -- HEADER START -- */
+.header {
+    width: 100%;
+    height: 100%;
+    background-image: ('./images/bg-mobile.svg');
+    background-size: cover;
+}
+
 .header__logo {
     margin-top: 2.375em;
     margin-bottom: 4.375em;
 }
 
 .logo-img {
-    max-width: 121px;
+    max-width: 10.0625em;
 }
 
 .header__hero {
-    margin-bottom: 70px;
+    margin-bottom: 4.375em;
 }
 
 .hero-img {
-    max-width: 296px;
+    max-width: 18.5em;
 }
 /* -- HEADER END -- */
 
@@ -89,30 +95,30 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 64px;
+    margin-bottom: 4em;
 }
 
 .body__title {
     color: var(--white);
     text-align: center;
-    margin-bottom: 28px;
+    margin-bottom: 1.75em;
 }
 
 .body__description {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     color: var(--white);
-    margin-bottom: 26px;
+    margin-bottom: 1.625em;
 }
 
 .body__register__btn {
-    width: 200px;
-    height: 40px;
+    width: 12.5em;
+    height: 2.5em;
     background-color: var(--white);
     border: none;
-    border-radius: 25px;
+    border-radius: 1.5625em;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--violet);
 }
@@ -125,14 +131,29 @@ h1 {
     align-items: center;
 }
 
+li:not(:first-child) {
+    margin-left: 1em;
+}
+
 .footer__social__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 0.75em;
+    height: 0.75em;
+    padding: 0.875em;
+    border: 0.125em solid white;
+    border-radius: 50%;
     color: var(--white);
+    margin-bottom: 2.5em;
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.6875rem; 
     text-align: center; 
+    color: var(--white);
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--softMagenta); 
 }
