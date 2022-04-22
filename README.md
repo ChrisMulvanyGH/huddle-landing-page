@@ -68,10 +68,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Scan](https://getcssscan.com/css-box-shadow-examples) - This helped me with my shadows on this project. In most cases like gradients it's some times better to copy rather than re-create and I find this a great resources for many different shadow requirements.
+- [Coder Coder!](https://coder-coder.com/how-to-fix-css-background-image-not-working/) - I had a little issue with my background image and after following these simple steps it all worked.  
 
 ## Author
 
